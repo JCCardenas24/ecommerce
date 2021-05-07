@@ -1,13 +1,13 @@
 <nav class="main-nav">
     <div class="d-flex align-items-center justify-content-between main-nav__primaryRow">
-        <a href="/"><img src="assets/images/logo_ansuz.png" alt="" class="main-nav__primaryRow--logo"></a>
+        <a href="/"><img src="assets/images/logo_mapfre.svg" alt="" class="main-nav__primaryRow--logo"></a>
         <div class="main-nav__primaryRow__tels d-flex align-items-center">
             <i class="icon-whatsapp"></i>
             <span class="main-nav__primaryRow__tels--separator">|</span>
             <span class="main-nav__primaryRow__tels--number"><i class="icon-telefono main-nav__primaryRow__tels--telefono"></i>01 800 6565 3456</span>
         </div>
     </div>
-    <div class="d-flex align-items-start justify-content-between main-nav__secondaryRow">
+    <div class="d-flex align-items-center justify-content-between main-nav__secondaryRow">
         <ul class="d-flex main-nav__secondaryRow--menuOptions">
             <li><a class="active" href="">Inicio</a></li>
             <li><a href=""> Cotiza ahora</a></li>

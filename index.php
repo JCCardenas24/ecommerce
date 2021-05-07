@@ -3,7 +3,7 @@
 
 <head>
   <?php include 'template/head.php';?>
-  <title>Ansuz | Agente de seguros</title>
+  <title>Mapfre | Agente de seguros</title>
 </head>
 
 <body>
@@ -15,24 +15,24 @@
           <div>
             <img src="./assets/images/home-slider/Home-auto.png" class="crop_img d-block w-100" alt="...">
             <div class="ttl_slide">
-             <h1 class="text-center">Hasta 30% <br> <span>de dto y MSI*</span></h1>
-             <p  class="text-center">*El precio puede variar al momento de cotizar</p>
+              <h1 class="text-center">Hasta 30% <br> <span>de dto y MSI*</span></h1>
+              <p class="text-center">*El precio puede variar al momento de cotizar</p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./assets/images/home-slider/Home-auto.png" class="crop_img d-block w-100" alt="...">
           <div class="ttl_slide">
-             <h1 class="text-center">Hasta 30% <br> <span>de dto y MSI*</span></h1>
-             <p  class="text-center">*El precio puede variar al momento de cotizar</p>
-            </div>
+            <h1 class="text-center">Hasta 30% <br> <span>de dto y MSI*</span></h1>
+            <p class="text-center">*El precio puede variar al momento de cotizar</p>
+          </div>
         </div>
         <div class="carousel-item">
           <img src="./assets/images/home-slider/Home-auto.png" class="crop_img  d-block w-100" alt="...">
           <div class="ttl_slide">
-             <h1 class="text-center">Hasta 30% <br> <span>de dto y MSI*</span></h1>
-             <p  class="text-center">*El precio puede variar al momento de cotizar</p>
-            </div>
+            <h1 class="text-center">Hasta 30% <br> <span>de dto y MSI*</span></h1>
+            <p class="text-center">*El precio puede variar al momento de cotizar</p>
+          </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -46,11 +46,11 @@
     </div>
 
     <div class="blue">
-        
+
     </div>
 
     <div class="incluye">
-<p>Qué Incluye Nuestro Plan</p>
+      <p>Qué Incluye Nuestro Plan</p>
     </div>
 
     <div class="preguntas">

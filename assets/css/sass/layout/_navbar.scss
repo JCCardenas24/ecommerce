@@ -1,12 +1,18 @@
 @import '../helpers/variables';
 
 .main-nav {
-     padding: 0 18px;
+    
      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.05);
+    
 }
 
 .main-nav__primaryRow {
      height: 67px;
+     background-color: #D71F03;
+     color: white;
+     // padding: 0 18px;
+     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.05);
+
 }
 
 .main-nav__primaryRow--logo {
@@ -25,6 +31,8 @@
 
 .main-nav__secondaryRow{
      height: 52px;
+     color: white;
+     padding: 0 18px;
      
 }
 
@@ -33,7 +41,7 @@
      font-family: 'KlavikaBold-Bold';
      font-weight: bold;
      font-size: 13px;
-     color: $light-gray;
+     color: white;
 }
 
 .main-nav__secondaryRow--menuOptions {
@@ -55,7 +63,7 @@
           font-weight: bold;
           font-size: $f15;
           line-height: 30px;
-          color: $navy-blue; 
+          color: #5D5B5B; 
      }
 }
 
@@ -76,7 +84,7 @@
 
      .btnLogin{
           color: #fff;
-          background-color: $sky-blue;
+          background-color: #393939;
           margin-right: 20px;
      }
 
@@ -84,6 +92,7 @@
       color: #393939;
       background-color: $yellow;
       margin-right: 30px;
+      display: none;
      }
 
      i.icon-carrito{
@@ -99,7 +108,7 @@ span.badge{
      width: 17px;
      height: 17px;
      border-radius: 50%;
-     background-color: $sky-blue;
+     background-color: #AC0603;
      color: white;
      position: absolute;
 }
