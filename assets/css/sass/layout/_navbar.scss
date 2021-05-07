@@ -1,0 +1,105 @@
+@import '../helpers/variables';
+
+.main-nav {
+     padding: 0 18px;
+     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.main-nav__primaryRow {
+     height: 67px;
+}
+
+.main-nav__primaryRow--logo {
+     width: 130px;
+     height: 35px;
+     margin-left: 26px;
+}
+
+.main-nav__primaryRow__tels--separator {
+     margin: 0 20px;
+}
+
+.main-nav__primaryRow__tels--telefono {
+     margin-right: 17px;
+}
+
+.main-nav__secondaryRow{
+     height: 52px;
+     
+}
+
+.main-nav__primaryRow__tels--number{
+     margin-right: 8px;
+     font-family: 'KlavikaBold-Bold';
+     font-weight: bold;
+     font-size: 13px;
+     color: $light-gray;
+}
+
+.main-nav__secondaryRow--menuOptions {
+     list-style: none;
+     list-style:none;
+     padding: 0;
+     margin-left: 26px;
+     margin-top: 8px;
+
+     li a{
+          margin-right: 29px;
+          font-size: $f15;
+          color: $light-gray;
+          line-height: 30px;
+     }
+
+     li a.active{
+          font-family: 'KlavikaBold-Bold';
+          font-weight: bold;
+          font-size: $f15;
+          line-height: 30px;
+          color: $navy-blue; 
+     }
+}
+
+.main-nav__secondaryRow__menuActions {
+     a{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: 'KlavikaBold-Bold';
+          font-weight: bold;
+          font-size: $f15;
+          line-height: 30px;
+          width: 150px;
+          height: 35px;
+          border-radius: 5px;
+     }
+    
+
+     .btnLogin{
+          color: #fff;
+          background-color: $sky-blue;
+          margin-right: 20px;
+     }
+
+     .btnCotizar{
+      color: #393939;
+      background-color: $yellow;
+      margin-right: 30px;
+     }
+
+     i.icon-carrito{
+          font-size: 28px;
+          color: #363636;
+          position: relative;
+     }
+
+     
+}
+
+span.badge{
+     width: 17px;
+     height: 17px;
+     border-radius: 50%;
+     background-color: $sky-blue;
+     color: white;
+     position: absolute;
+}

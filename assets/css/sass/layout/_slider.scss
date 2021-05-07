@@ -1,0 +1,44 @@
+@import '../base/font';
+
+.crop_img {
+    height: 650px;
+    object-fit: cover;
+    object-position: 0 15%;
+}
+
+.ttl_slide {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    // border: solid 0.5px yellow;
+
+    h1 {
+        font-family: 'KlavikaBold-Bold';
+        font-weight: bold;
+        font-size: 84px;
+        line-height: 100px;
+        color: #0e18e8;
+        padding-top: 65px;
+
+    }
+
+    h1>span {
+        font-size: 70px;
+        line-height: 84px;
+        color: #5d5b5b;
+        font-family: 'Klavika-Regular';
+        font-weight: normal;
+
+    }
+
+    p{
+        margin: 0;
+    }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    height: 300px;
+    // z-index: ;
+}

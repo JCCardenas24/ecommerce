@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Klavika-Regular';
+    src: url('./font/Klavika-Regular.eot');
+    src: url('./font/Klavika-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./font/Klavika-Regular.svg#Klavika-Regular') format('svg'),
+        url('./font/Klavika-Regular.ttf') format('truetype'),
+        url('./font/Klavika-Regular.woff') format('woff'),
+        url('./font/Klavika-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KlavikaBold-Bold';
+    src: url('./font/KlavikaBold-Bold.eot');
+    src: url('./font/KlavikaBold-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./font/KlavikaBold-Bold.svg#KlavikaBold-Bold') format('svg'),
+        url('./font/KlavikaBold-Bold.ttf') format('truetype'),
+        url('./font/KlavikaBold-Bold.woff') format('woff'),
+        url('./font/KlavikaBold-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Klavika-Regular';
+}
+
+
