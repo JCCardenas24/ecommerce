@@ -1,11 +1,15 @@
+@import '../base/font';
+@import '../base/icons';
+
 .blue {
     height: 553px;
-    background: #FFF3EA;
+    // background: #FFF3EA;
     opacity: 1;
 }
 
 .incluye {
     height: 693px;
+
     p {
         font-size: 60px;
         line-height: 62px;
@@ -14,11 +18,11 @@
     }
 }
 
-.preguntas {
-    height: 549px;
-    background: #f9f9f9;
-    opacity: 0.89;
-}
+// .preguntas {
+//     height: 549px;
+//     background: #f9f9f9;
+//     opacity: 0.89;
+// }
 
 .suscribe {
     height: 259px;
@@ -33,4 +37,304 @@
 .legal {
     height: 51px;
     background-color: #c00717;
+}
+
+
+.about_us {
+    background-color: #FFF3EA;
+    height: 500px;
+    width: 100%;
+    margin-top: 95px;
+}
+
+
+.about_us {
+
+    h2 {
+        font-size: 60px;
+        line-height: 62px;
+        color: #3e3e3e;
+        margin-top: 31px;
+        margin-bottom: 18px;
+    }
+
+    p {
+        margin-bottom: 42px;
+        font-size: 15px;
+        line-height: 25px;
+        color: #3e3e3e;
+    }
+
+    .foto {
+        margin: auto;
+        display: block;
+        width: 416px;
+    }
+
+    a.cotizar_btn {
+        width: 219px;
+        height: 50px;
+        background: #c00717;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+        display: block;
+        font-weight: 900;
+        font-size: 15px;
+        text-align: left;
+        color: #fff;
+        border-radius: 5px;
+    }
+}
+
+.promotions {
+    h1 {
+        color: #3e3e3e;
+        font-size: 60px;
+        line-height: 62px;
+        margin-bottom: 39px;
+        font-weight: normal;
+    }
+
+    height: 500px;
+    width: 100%;
+    width: 100%;
+     background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .d-flex {
+        width: 100%;
+        justify-content: space-evenly;
+        justify-content: space-evenly;
+    }
+}
+
+.blog {
+    h1 {
+        color: #3e3e3e;
+        font-size: 60px;
+        line-height: 62px;
+        margin-bottom: 39px;
+         font-weight: normal;
+
+    }
+
+    height: 685px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .d-flex {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .see_more {
+        width: 219px;
+        height: 50px;
+        background: #c00717;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+        display: block;
+        font-weight: 900;
+        font-size: 15px;
+        text-align: left;
+        color: #fff;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.customers {
+    h1 {
+        font-family: 'KlavikaBold-Bold';
+        font-weight: bold;
+        color: #3e3e3e;
+        margin-bottom: 18px;
+    }
+
+    height: 587px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .d-flex.space-evenly {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .see_more {
+        width: 219px;
+        height: 50px;
+        background: #c00717;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+        display: block;
+        font-weight: 900;
+        font-size: 15px;
+        text-align: left;
+        color: #fff;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .testimonial_card {
+        width: 320px;
+        height: 320px;
+        background: transparent;
+        border: 1px solid #98000f;
+
+        .content_testimonial {
+            padding: 38px;
+
+            h5 {
+                font-size: 17px;
+                line-height: 25px;
+
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 25px;
+            }
+
+            span,
+            p,
+            h5 {
+                color: #5d5b5b;
+            }
+
+            img {
+                width: 46px;
+                margin-right: 14px;
+            }
+
+            span {
+                margin: 22px 0 17px 0;
+                display: block;
+            }
+        }
+
+    }
+
+
+}
+
+.q_a {
+    height: 582px;
+    background: #f9f9f9;
+    width: 100%;
+    background-color: rgba(249, 249, 249, 0.89);
+    margin-top: 49px;
+
+    .tabs_ {
+        // border: solid 0.5px;
+    }
+
+    .container_ {
+        // margin-top: 46px;
+    }
+
+    h1 {
+        font-size: 35px;
+        line-height: 62px;
+        color: #3e3e3e;
+        font-family: 'KlavikaBold-Bold';
+        font-weight: bold;
+        margin-bottom: 9px;
+    }
+
+    p {
+        margin-bottom: 39px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: unset !important;
+    border-color: transparent !important;
+    color: #d71f03;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+
+a.nav-link {
+    color: #959595;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.nav-tabs {
+    border-bottom: transparent;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.card-header {
+    background-color: transparent;
+    border-bottom: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    h2 {
+        width: 100%;
+    }
+}
+
+button.btn-link {
+    border-bottom: 1px solid rgb(152, 0, 15);
+    border-radius: 0;
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #5d5b5b;
+
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn-link.focus,
+.btn-link:focus {
+    color: #d71f03;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #d71f03;
+}
+
+.accordion .card-header:after {
+    font-family: 'icomoon';
+    content: "\e916";
+    position: relative;
+    left: -100px;
+    color: #d71f03;
+}
+
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067";
 }

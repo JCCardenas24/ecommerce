@@ -1,4 +1,5 @@
 @import '../base/font';
+
 // .crop_img {
 //     height: 650px;
 //     object-fit: cover;
@@ -6,16 +7,21 @@
 // }
 .carousel {
     height: 800px;
+
+
     .carousel-inner {
         height: 100%;
     }
 }
+
+
 
 .ttl_slide {
     width: 100%;
     height: 300px;
     position: absolute;
     top: 0;
+
     // border: solid 0.5px yellow;
     h1 {
         font-family: 'KlavikaBold-Bold';
@@ -23,8 +29,9 @@
         font-size: 84px;
         line-height: 100px;
         color: #c00717;
-        padding-top: 65px;
+        padding-top: 37px;
     }
+
     h1>span {
         font-size: 70px;
         line-height: 84px;
@@ -32,6 +39,7 @@
         font-family: 'Klavika-Regular';
         font-weight: normal;
     }
+
     p {
         margin: 0;
     }
@@ -48,8 +56,9 @@
     width: 100%;
     height: 212px;
     top: 300px;
+
     .options_row {
-        width: 92%;
+        width: 90%;
         height: 100%;
         margin: auto;
         background-color: rgba(0, 0, 0, 0.5);
@@ -66,12 +75,14 @@
     color: white;
     width: 111px;
     height: 114px;
+
     // border: solid 0.5px;
     i {
         font-size: 56px;
         text-align: center;
         display: block;
     }
+
     p {
         margin: 0;
         text-align: center;
@@ -80,5 +91,96 @@
         font-size: 15px;
         font-weight: bold;
         line-height: 30px;
+    }
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+
+    .bg-img {
+        background-position: center bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-clip: border-box;
+        background-attachment: scroll;
+    }
+}
+
+.row_steps_numbers {
+    position: absolute;
+    bottom: 0;
+
+    h1 {
+        font-family: 'KlavikaBold-Bold';
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 38px;
+        color: black;
+         margin: 0;
+    }
+
+
+}
+
+.steps_numbers {
+    width: 162px;
+    height: 213px;
+    // background-color: cadetblue;
+    position: relative;
+
+    .info {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        width: 65%;
+
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        span {
+            font-size: 15px;
+            line-height: 17px;
+
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 17px;
+            text-align: left;
+            color: #363636;
+
+            i {
+                font-size: 38px;
+                color: #c00717;
+                margin-bottom: 14px;
+                display: block;
+            }
+        }
+
+    }
+
+    p {
+        font-size: 196px;
+        line-height: 213px;
+        margin: 0;
+        color: rgba(0, 0, 0, 0.2);
+        font-family: 'KlavikaBold-Bold';
+        font-weight: bold;
+    }
+}
+
+.box_number {
+    justify-content: space-evenly;
+}
+
+@media screen and (min-width: 1600px) {
+    .carousel {
+        height: 990px;
+    }
+
+    .options_seguros_row {
+        top: 413px;
     }
 }

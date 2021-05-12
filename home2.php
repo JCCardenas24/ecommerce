@@ -6,11 +6,11 @@
   <title>Mapfre | Agente de seguros</title>
 </head>
 
-<body>
+<body id="cotizador_body">
   <div class="container-fluid p-0">
     <?php include 'template/navbar.php';?>
     <div class="slider_wrapper">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="w-100 h-100 bg-img" style="background-image: url('./assets/images/home-slider/Home-auto.png');">
@@ -85,8 +85,28 @@
             <p>Mascotas</p>
           </div>
         </div>
+        <form action="">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+            <div class="col">
+              <button class="btn">Cotizar ahora</button>
+            </div>
+          </div>
+        </form>
+        <p>Al dar click en Cotizar ahora aceptas haber leído y acepto el Aviso de privacidad</p>
       </div>
-      <div class="row_steps_numbers w-100">
+      <!-- <div class="row_steps_numbers w-100">
         <h1 class="text-center">¿Cómo funciona?</h1>
         <div class="d-flex w-100 box_number">
           <div class="steps_numbers">
@@ -117,17 +137,16 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <section class="about_us">
       <div class="row h-100 col-10 p-0 mx-auto">
         <div class="col-6 h-100 d-flex justify-content-center align-items-center">
           <div>
-            <img src="assets/images/logo_mapfre-red.svg" alt="">
-            <h2>¿Quiénes somos?</h2>
-            <p>Somos tu cotizados en linea que te ayuda a encontrar tu seguro con la cobertura ideal al mejor precio en
-              tan solo 2 clicks.</p>
+            <!-- <img src="assets/images/logo_mapfre-red.svg" alt=""> -->
+            <h2>Seguro de Auto</h2>
+            <p>A donde quiera que vayas hazlo con seguridad. Disfruta los beneficios de forma rápida y sencilla con Mapfre todo es personalizado, tú armas el plan de protección y por lo tanto decides cuánto pagar.</p>
             <a href="" class="d-flex cotizar_btn justify-content-center align-items-center">¡Quiero cotizar!</a>
           </div>
         </div>
@@ -137,7 +156,7 @@
       </div>
     </section>
 
-    <section class="promotions">
+    <!-- <section class="promotions">
       <div class="col-10 p-0 mx-auto">
         <h1 class="text-center">Promociones</h1>
         <div class="d-flex">
@@ -146,30 +165,28 @@
           <img src="https://dummyimage.com/320x320/#E0E0E" alt="">
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="blog">
       <div class="col-10 p-0 p-0 mx-auto h-100 d-flex justify-content-center align-items-center">
         <div class="w-100">
-          <h1 class="text-center">Conoce Nuestro Blog</h1>
+          <!-- <h1 class="text-center">Conoce Nuestro Blog</h1> -->
           <div class="d-flex">
-            <img src="https://dummyimage.com/320x430/#E0E0E" alt="">
-            <img src="https://dummyimage.com/320x430/#E0E0E" alt="">
-            <img src="https://dummyimage.com/320x430/#E0E0E" alt="">
+            <img src="https://dummyimage.com/200x430/#E0E0E" alt="">
+            <img src="https://dummyimage.com/200x430/#E0E0E" alt="">
+            <img src="https://dummyimage.com/200x430/#E0E0E" alt="">
+            <img src="https://dummyimage.com/200x430/#E0E0E" alt="">
           </div>
         </div>
         <a href="" class="see_more d-flex justify-content-center align-items-center">Ver más</a>
       </div>
     </section>
 
-    <section class="customers">
+    <!-- <section class="customers">
       <div class="col-10 p-0 p-0 mx-auto h-100 d-flex justify-content-center align-items-center">
         <div class="w-100">
           <h1 class="text-center">Nuestros clientes</h1>
           <div class="d-flex space-evenly">
-            <!-- <img src="https://dummyimage.com/320x430/#E0E0E" alt="">
-          <img src="https://dummyimage.com/320x430/#E0E0E" alt="">
-          <img src="https://dummyimage.com/320x430/#E0E0E" alt=""> -->
             <div class="testimonial_card">
               <div class="content_testimonial">
                 <div class="d-flex d-flex align-items-start align-items-center">
@@ -182,7 +199,7 @@
               </div>
             </div>
             <div class="testimonial_card">
-            <div class="content_testimonial">
+              <div class="content_testimonial">
                 <div class="d-flex d-flex align-items-start align-items-center">
                   <img src="./assets/images/user.png" alt="">
                   <h5>Jazmin Villanueva</h5>
@@ -193,7 +210,7 @@
               </div>
             </div>
             <div class="testimonial_card">
-            <div class="content_testimonial">
+              <div class="content_testimonial">
                 <div class="d-flex d-flex align-items-start align-items-center">
                   <img src="./assets/images/user.png" alt="">
                   <h5>Jazmin Villanueva</h5>
@@ -207,7 +224,7 @@
         </div>
         <a href="" class="see_more d-flex justify-content-center align-items-center">Ver más</a>
       </div>
-    </section>
+    </section> -->
 
     <section class="q_a">
       <div class="d-flex justify-content-center align-items-center container_ col-10 p-0 mx-auto h-100">
